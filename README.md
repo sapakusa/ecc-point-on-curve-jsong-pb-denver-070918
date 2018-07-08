@@ -35,9 +35,5 @@ class Point:
         # make sure that the elliptic curve equation is satisfied
         # y**2 == x**3 + a*x + b
         # if not, throw a RuntimeError
-
-        # x being None and y being None represents the point at infinity
-        # Check for that here since the equation below won't make sense
-        # ith None values for both.
         pass
 ```
